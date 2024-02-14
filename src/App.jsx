@@ -1,13 +1,15 @@
-import { useState } from 'react'
+
+import Modal from './components/Modal'
 
 import './App.css'
-import AreasConocimiento from './pages/AreasConocimiento'
+
+import AreasDeConocimientoTabla from './pages/AreasConocimiento'
 
 function App() {
   
   return (
     <>
-      <AreasConocimiento/>
+      <AreasDeConocimientoTabla/>
     </>
   )
 }
